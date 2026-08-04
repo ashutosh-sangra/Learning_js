@@ -1,6 +1,3 @@
-for (let i = 1; i <= 10; i++) {
-  console.log(i);
-}
 const units = 250;
 
 let bill = 0;
@@ -12,5 +9,4 @@ if (units <= 100) {
 } else {
   bill = 100 * 5 + 100 * 7 + (units - 200) * 10;
 }
-
 console.log(bill);
