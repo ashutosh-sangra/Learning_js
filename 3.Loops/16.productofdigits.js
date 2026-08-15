@@ -1,4 +1,4 @@
-let num = 1234; // change this to whatever number you want
+let num = 1234;
 let product = 1;
 let temp = num;
 
