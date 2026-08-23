@@ -1,8 +1,17 @@
-let n = 10;
+// let n = 10;
+// let sum = 0;
+
+// for (let i = 2; i <= n; i += 2) {
+//   sum += i;
+// }
+
+// console.log("Sum of even numbers from 1 to " + n + " is: " + sum);
+
+let n = 20;
 let sum = 0;
-
-for (let i = 2; i <= n; i += 2) {
-  sum += i;
+for (let i = 2; i <= n; i++) {
+  if (i % 2 == 0) {
+    sum = sum + i;
+  }
 }
-
 console.log("Sum of even numbers from 1 to " + n + " is: " + sum);
