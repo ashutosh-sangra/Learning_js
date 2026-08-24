@@ -5,7 +5,7 @@ let temp = num;
 while (temp > 0) {
   let lastDigit = temp % 10;
   product *= lastDigit;
-  temp = (temp - lastDigit) / 10;
+  temp = (temp - lastDigit) / 10; //Math.floor
 }
 
 console.log("Product of digits: " + product);
